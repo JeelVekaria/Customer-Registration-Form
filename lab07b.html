@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input{
+            width:300px;
+            height:20px; 
+            padding-top: 10px;
+            font-size: 20px;
+        }
+        select{
+            width:304px;
+            height:40px; 
+            font-size: 0.68em;
+        }
+    </style>
+</head>
+<body style="background-color:rgba(206,236,241,255);font-family: 'IBM Plex Mono', monospace;font-size: 24px;">
+    
+    <h1>Customer Registration Form</h1>
+
+
+        <form action="https://www2.cs.ryerson.ca/~j2vekari/cgi-bin/lab07b.cgi" method="post" enctype="multipart/form-data" style="text-align:right;position: absolute;left:20px;" enctype="multipart/form-data">
+            First Name: <input type="text" id="firstName" name="firstName"  required><br><br>
+            
+            Last Name: <input type="text" id="lastName" name="lastName" required><br><br>
+            
+            Street Name:<input type="text" id="street" name="street" required ><br><br>
+            
+            City: <input type="text" id="city" name="city" required ><br><br>
+            
+            Postal Code (format L0L 0L0): <input type="text" id="postalCode" name="postalCode" required ><br><br>
+            
+            Province: <select id="province" name="province" required>
+                <option value="Alberta">Alberta</option>
+                <option value="British Columbia">British Columbia</option>
+                <option value="Manitoba">Manitoba</option>
+                <option value="New Brunswick">New Brunswick</option>
+                <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                <option value="Northwest Territories">Northwest Territories</option>
+                <option value="Nova Scotia">Nova Scotia</option>
+                <option value="Nunavut">Nunavut</option>
+                <option value="Ontario">Ontario</option>
+                <option value="Prince Edward Island">Prince Edward Island</option>
+                <option value="Quebec">Quebec</option>
+                <option value="Saskatchewan">Saskatchewan</option>
+                <option value="Yukon">Yukon</option>                
+            </select><br><br>
+            
+            Phone Number (format 10 digits): <input type="tel" id="phoneNumber" name="phoneNumber"  required ><br><br>
+            
+            Email Addresss: <input type="email" id="email" name="email" required ><br><br>
+            
+            Upload Photo: <input type="file" id="photo" name="photo" style="width:304px; height:auto;" required><br><br>
+            
+            <input type="submit" name="submit" value="Submit Form" style="width:304px; height:auto;">
+        </form>
+
+
+
+</body>
+</html>
