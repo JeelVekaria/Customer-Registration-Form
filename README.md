@@ -21,3 +21,6 @@ Display all submitted information in a well-formatted manner.
 
 #### Error Handling:
 Highlight user input errors in the display page if any validation issues are detected.
+
+Try it out![
+https://cs.torontomu.ca/~j2vekari/Lab07Dir/lab07b.html]([url](https://cs.torontomu.ca/~j2vekari/Lab07Dir/lab07b.html)https://cs.torontomu.ca/~j2vekari/Lab07Dir/lab07b.html)
